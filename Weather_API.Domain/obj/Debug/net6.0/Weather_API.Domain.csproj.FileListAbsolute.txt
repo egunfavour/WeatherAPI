@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\bin\Debug\net6.0\Weather_API.Domain.deps.json
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\bin\Debug\net6.0\Weather_API.Domain.dll
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\bin\Debug\net6.0\Weather_API.Domain.pdb
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\Weather_API.Domain.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\Weather_API.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\Weather_API.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\Weather_API.Domain.AssemblyInfo.cs
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\Weather_API.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\Weather_API.Domain.dll
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\refint\Weather_API.Domain.dll
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\Weather_API.Domain.pdb
+C:\Users\USER\source\repos\Weather_API\Weather_API.Domain\obj\Debug\net6.0\ref\Weather_API.Domain.dll
