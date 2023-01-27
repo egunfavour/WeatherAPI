@@ -12,7 +12,7 @@ using Weather_API.Infrastructure;
 namespace Weather_API.Infrastructure.Migrations
 {
     [DbContext(typeof(Web_APIDbContext))]
-    [Migration("20230127002913_initial")]
+    [Migration("20230127115614_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -207,11 +207,8 @@ namespace Weather_API.Infrastructure.Migrations
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Phone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")

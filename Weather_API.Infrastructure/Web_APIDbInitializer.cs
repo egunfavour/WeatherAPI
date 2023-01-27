@@ -12,13 +12,14 @@ namespace Weather_API.Infrastructure
         {
             using var serviceScope = builder.ApplicationServices.CreateScope();
             var context = serviceScope.ServiceProvider.GetService<Web_APIDbContext>();
-            string filePath = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName, @"Web_API.Infrastructure\Data\");
+            var basedir =  Directory.GetCurrentDirectory();
+            //string filePath = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName, @"Web_API.Infrastructure\Data\");
             if (await context.Database.EnsureCreatedAsync()) return;
 
             if (!context.Roles.Any())
             {
                 var roleManager = serviceScope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-                var readText = await File.ReadAllTextAsync(filePath + "Roles.json");
+                var readText = await File.ReadAllTextAsync(Path.Combine( basedir + "/Data/Roles.json"));
                 List<IdentityRole> Roles = JsonConvert.DeserializeObject<List<IdentityRole>>(readText);
                 foreach (var role in Roles)
                 {
@@ -26,9 +27,9 @@ namespace Weather_API.Infrastructure
                 }
             }
             if (!context.User.Any())
-            {
+            { 
                 var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
-                var readText = await File.ReadAllTextAsync(filePath + "Users.json");
+                var readText = await File.ReadAllTextAsync(Path.Combine( basedir + "/Data/Users.json"));
                 List<AppUser> users = JsonConvert.DeserializeObject<List<AppUser>>(readText);
                 users.ForEach(delegate (AppUser user)
                 {

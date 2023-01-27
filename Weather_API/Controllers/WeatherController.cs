@@ -15,7 +15,7 @@ namespace Weather_API.Controllers
         {
             _weather = weather;
         }
-        [HttpGet,Authorize(Roles = "AdminUser")]
+        [HttpGet/*,Authorize(Roles = "User")*/]
         public async Task<IActionResult> GetWeatherInfo(string location)
         {
             return Ok(await _weather.GetWeatherInfoAsync(location));

@@ -13,7 +13,7 @@ namespace Weather_API.Domain.Models
         public bool IsActive { get; set; } = true;
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string Phone { get; set; }
+        public string PhoneNumber { get; set; } 
         public string? RefreshToken { get; set; }
         public DateTime? RefreshTokenExpiryTime { get; set; }
         public DateTimeOffset CreatedAt { get; set; }

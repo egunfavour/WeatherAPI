@@ -45,6 +45,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 
 var app = builder.Build();
+await Web_APIDbInitializer.Seed(app);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
