@@ -10,8 +10,7 @@ namespace Weather_API.Domain.Models
 {
     public class AppUser : IdentityUser, IAuditable
     {
-        public int UserType { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Phone { get; set; }
@@ -19,6 +18,5 @@ namespace Weather_API.Domain.Models
         public DateTime? RefreshTokenExpiryTime { get; set; }
         public DateTimeOffset CreatedAt { get; set; }
         public DateTimeOffset UpdatedAt { get; set; }
-        public ICollection<Address> Addresses { get; set; }
     }
 }

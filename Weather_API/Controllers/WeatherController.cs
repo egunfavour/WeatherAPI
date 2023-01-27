@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Weather_API.Infrastructure.Repositoy;
@@ -14,8 +15,7 @@ namespace Weather_API.Controllers
         {
             _weather = weather;
         }
-        [HttpGet]
-
+        [HttpGet,Authorize(Roles = "AdminUser")]
         public async Task<IActionResult> GetWeatherInfo(string location)
         {
             return Ok(await _weather.GetWeatherInfoAsync(location));

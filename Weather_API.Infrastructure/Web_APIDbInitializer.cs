@@ -25,7 +25,7 @@ namespace Weather_API.Infrastructure
                     await roleManager.CreateAsync(role);
                 }
             }
-            if (!context.user.Any())
+            if (!context.User.Any())
             {
                 var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
                 var readText = await File.ReadAllTextAsync(filePath + "Users.json");
@@ -33,7 +33,7 @@ namespace Weather_API.Infrastructure
                 users.ForEach(delegate (AppUser user)
                 {
                     userManager.CreateAsync(user, "Jaspino2_06$");
-                    context.user.AddAsync(user);
+                    context.User.AddAsync(user);
                 });
             }
             await context.SaveChangesAsync();

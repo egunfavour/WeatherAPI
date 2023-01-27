@@ -7,8 +7,6 @@ namespace Weather_API.Infrastructure
     public class Web_APIDbContext : IdentityDbContext<AppUser>
     {
         public Web_APIDbContext(DbContextOptions<Web_APIDbContext> options) : base(options) { }
-        public DbSet<AppUser> user { get; set; }
-        public DbSet<Address> addresse { get; set; }
-
+        public DbSet<AppUser> User { get; set; }
     }
 }

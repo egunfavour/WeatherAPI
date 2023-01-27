@@ -1,8 +1,8 @@
 [
   {
-    "Name": "Admin"
+    "Name": "AdminUser"
   },
   {
-    "Name": "Customer"
+    "Name": "User"
   }
 ]

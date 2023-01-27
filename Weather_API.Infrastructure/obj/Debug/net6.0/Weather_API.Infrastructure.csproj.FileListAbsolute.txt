@@ -15,3 +15,41 @@ C:\Users\USER\source\repos\Weather_API\Weather_API.Infrastructure\obj\Debug\net6
 C:\Users\USER\source\repos\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\refint\Weather_API.Infrastructure.dll
 C:\Users\USER\source\repos\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.pdb
 C:\Users\USER\source\repos\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\ref\Weather_API.Infrastructure.dll
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.AssemblyInfo.cs
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.deps.json
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.runtimeconfig.json
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.dll
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.pdb
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Core.dll
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Domain.dll
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Core.pdb
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Domain.pdb
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.csproj.CopyComplete
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.dll
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\refint\Weather_API.Infrastructure.dll
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.pdb
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.genruntimeconfig.cache
+C:\Users\Kehinde Aregbesola\Downloads\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\ref\Weather_API.Infrastructure.dll
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.deps.json
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.runtimeconfig.json
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.dll
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Infrastructure.pdb
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Core.dll
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Domain.dll
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Core.pdb
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\bin\Debug\net6.0\Weather_API.Domain.pdb
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.AssemblyInfo.cs
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.csproj.CopyComplete
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.dll
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\refint\Weather_API.Infrastructure.dll
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.pdb
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\Weather_API.Infrastructure.genruntimeconfig.cache
+C:\Users\USER\Desktop\Weather_API\Weather_API\Weather_API\Weather_API.Infrastructure\obj\Debug\net6.0\ref\Weather_API.Infrastructure.dll

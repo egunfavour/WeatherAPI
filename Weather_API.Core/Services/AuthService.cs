@@ -14,7 +14,8 @@ namespace Weather_API.Core.Services
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
         private readonly UserManager<AppUser> _userManager;
- 
+
+
         public AuthService(IServiceProvider provider)
         {
             _userManager = provider.GetRequiredService<UserManager<AppUser>>();
@@ -50,11 +51,7 @@ namespace Weather_API.Core.Services
                 return ResponseDTO<CredentialResponseDTO>.Fail("Invalid user credential", (int)HttpStatusCode.BadRequest);
             }
 
-            if (!user.EmailConfirmed)
-            {
-                return ResponseDTO<CredentialResponseDTO>.Fail("User's account is not confirmed", (int)HttpStatusCode.BadRequest);
-            }
-            else if (!user.IsActive)
+            if (!user.IsActive)
             {
                 return ResponseDTO<CredentialResponseDTO>.Fail("User's account is deactivated", (int)HttpStatusCode.BadRequest);
             }
@@ -75,7 +72,5 @@ namespace Weather_API.Core.Services
             }
             return ResponseDTO<CredentialResponseDTO>.Fail("Failed to login user", (int)HttpStatusCode.InternalServerError);
         }
-
-
     }
 }
